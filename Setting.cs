@@ -61,7 +61,8 @@ namespace SimulationTools
         {
             return new Dictionary<string, string>
             {
-                { m_Setting.GetSettingsLocaleID(), "Simulation Tools" },
+                //{ m_Setting.GetSettingsLocaleID(), "Simulation Tools" },
+                { m_Setting.GetSettingsLocaleID(), "Fix Broken Trailers" },
                 { m_Setting.GetOptionTabLocaleID(Setting.kSection), "Main" },
                 
 
